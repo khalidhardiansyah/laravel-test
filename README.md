@@ -1,5 +1,6 @@
 ---
-
+## migrate
+php artisan migrate --seed --seeder=UserSeeder
 ### ✅ Tabel API Endpoint
 
 ```markdown
