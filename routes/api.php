@@ -6,5 +6,5 @@ use App\Http\Middleware\RecordLogMiddleware;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-Route::apiResource("users", UserController::class)->middleware(RecordLogMiddleware::class);
+Route::apiResource("users", UserController::class);
 
